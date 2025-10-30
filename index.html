@@ -11,9 +11,11 @@
 </head>
 <body>
 <main>
-    <div class="container">
-        <img></img>
-        <div class="container">
+    <article class="container">
+        <picture class="hero">
+            <img src="./assets/images/illustration-sign-up-mobile.svg" alt="background image">
+        </picture>
+        <section class="content">
             <h1>Stay updated</h1>
             <p>Join 60,000+ product managers receiving monthly updates on:</p>
             <ul>
@@ -21,12 +23,13 @@
                 <li>Measuring to ensure updates are a success</li>
                 <li>And much more!</li>
             </ul>
-        </div>
-        <form>
-            <input type="email" placeholder="Email address">
+        </section>
+        <form class="form">
+            <label for="email">email address</label>
+            <input id="email" type="email" placeholder="Email address">
             <button>Subscribe</button>
         </form>
-    </div>
+    </article>
 </main>
 </body>
 </html>
