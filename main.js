@@ -11,3 +11,13 @@ button.addEventListener('click', () => {
         input.classList.add('email-form__input--error');
     }
 });
+
+input.addEventListener('input', () => {
+    if (errorLabel.textContent !== '') {
+        errorLabel.textContent = '';
+    }
+
+    if (input.classList.contains('email-form__input--error')) {
+        input.classList.remove('email-form__input--error');
+    }
+});
