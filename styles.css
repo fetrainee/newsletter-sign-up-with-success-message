@@ -261,7 +261,7 @@ body {
     }
 
     .newsletter-signup__wrapper {
-        min-width: auto;
+        min-width: 376px;
     }
 
     .email-form__button:hover, .success-message__button:hover {
