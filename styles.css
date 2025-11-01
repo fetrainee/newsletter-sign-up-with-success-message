@@ -200,6 +200,7 @@ body {
         align-items: center;
         justify-content: center;
         display: flex;
+        min-height: 100vh;
     }
 
     main {
@@ -222,5 +223,18 @@ body {
 
     .email-form {
         padding-bottom: 0;
+    }
+
+    .success-message {
+        background: var(--white);
+        border-radius: 36px;
+        padding: var(--spacing-24);
+        max-width: 504px;
+        min-height: auto;
+        gap: var(--spacing-32);
+    }
+
+    .success-message__header {
+        gap: var(--spacing-32);
     }
 }
