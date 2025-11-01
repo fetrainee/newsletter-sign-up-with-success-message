@@ -24,6 +24,12 @@
     --spacing-64: 4rem;
     --spacing-72: 4.5rem;
     --spacing-104: 6.5rem;
+
+    /* Typography - Font Sizes */
+    --font-size-sm: 12px;
+    --font-size-base: 16px;
+    --font-size-lg: 40px;
+    --font-size-xl: 56px;
 }
 
 * {
@@ -65,13 +71,13 @@ body {
 }
 
 .newsletter-signup__title {
-    font-size: 40px;
+    font-size: var(--font-size-lg);
     font-weight: 700;
     line-height: 100%;
 }
 
 .newsletter-signup__description {
-    font-size: 16px;
+    font-size: var(--font-size-base);
     font-weight: 400;
     line-height: 150%;
 }
@@ -86,7 +92,7 @@ body {
 .features-list__item {
     padding-left: 32px;
     position: relative;
-    font-size: 16px;
+    font-size: var(--font-size-base);
     line-height: 150%;
 }
 
@@ -110,7 +116,7 @@ body {
 }
 
 .email-form__label {
-    font-size: 12px;
+    font-size: var(--font-size-sm);
     font-weight: 700;
     line-height: 150%;
     display: flex;
@@ -134,7 +140,7 @@ body {
     padding: var(--spacing-16) var(--spacing-24);
     border: 1px solid var(--grey);
     border-radius: 8px;
-    font-size: 16px;
+    font-size: var(--font-size-base);
     font-weight: 400;
 }
 
@@ -150,7 +156,7 @@ body {
     border-radius: 8px;
     background: var(--blue-800);
     color: var(--white);
-    font-size: 16px;
+    font-size: var(--font-size-base);
     font-weight: 700;
     line-height: 150%;
     cursor: pointer;
@@ -182,13 +188,13 @@ body {
 }
 
 .success-message__title {
-    font-size: 40px;
+    font-size: var(--font-size-lg);
     font-weight: 700;
     line-height: 100%;
 }
 
 .success-message__description {
-    font-size: 16px;
+    font-size: var(--font-size-base);
     font-weight: 400;
     line-height: 150%;
 }
@@ -218,7 +224,7 @@ body {
     }
 
     .newsletter-signup__title {
-        font-size: 56px;
+        font-size: var(--font-size-xl);
     }
 
     .email-form {
