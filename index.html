@@ -7,6 +7,7 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <link rel="stylesheet" href="./styles.css">
+    <script defer src="./main.js"></script>
     <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 </head>
 <body>
@@ -27,10 +28,13 @@
             </section>
             <form class="form__email">
                 <label for="email">
-                    <span class="label-text">Email address</span>
+                    <span class="label-wrapper">
+                        <span class="label-text">Email address</span>
+                        <span class="label-error" id="email-error" aria-live="polite"></span>
+                    </span>
                     <input id="email" type="email" placeholder="email@company.com">
                 </label>
-                <button>Subscribe to monthly newsletter</button>
+                <button class="form--button" type="button">Subscribe to monthly newsletter</button>
             </form>
         </div>
     </article>
