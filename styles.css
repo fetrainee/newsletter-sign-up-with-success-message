@@ -151,3 +151,37 @@ body {
     line-height: 150%;
     cursor: pointer;
 }
+
+.success-message {
+    max-width: 327px;
+    height: 623px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.success-message__header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-32);
+}
+
+.success-message__header img {
+    width: 64px;
+    height: 64px;
+}
+
+.success-message__header h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.success-message__description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
