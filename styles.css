@@ -26,18 +26,18 @@
     --spacing-104: 6.5rem;
 
     /* Typography - Font Sizes */
-    --font-size-sm: 12px;
-    --font-size-base: 16px;
-    --font-size-lg: 40px;
-    --font-size-xl: 56px;
+    --font-size-sm: 0.75rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 2.5rem;
+    --font-size-xl: 3.5rem;
 
     /* Typography - Font Weights */
     --font-weight-normal: 400;
     --font-weight-bold: 700;
 
     /* Border Radius */
-    --border-radius-sm: 8px;
-    --border-radius-lg: 36px;
+    --border-radius-sm: 0.5rem;
+    --border-radius-lg: 2.25rem;
 }
 
 * {
