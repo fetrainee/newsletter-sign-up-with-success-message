@@ -47,6 +47,10 @@ body {
     align-items: center;
 }
 
+.newsletter-signup__hidden {
+    display: none;
+}
+
 .newsletter-signup__wrapper {
     max-width: 327px;
     display: flex;
@@ -161,6 +165,10 @@ body {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.success-message__hidden {
+    display: none;
 }
 
 .success-message__header {
