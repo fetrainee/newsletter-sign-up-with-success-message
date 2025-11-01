@@ -238,3 +238,20 @@ body {
         gap: var(--spacing-32);
     }
 }
+
+@media (min-width: 1440px) {
+    .newsletter-signup {
+        flex-direction: row-reverse;
+        justify-content: normal;
+        gap: var(--spacing-64);
+    }
+
+    .newsletter-signup__wrapper {
+        min-width: auto;
+    }
+
+    .email-form__button:hover, .success-message__button:hover {
+        color: var(--white);
+        background: var(--gradient);
+    }
+}
