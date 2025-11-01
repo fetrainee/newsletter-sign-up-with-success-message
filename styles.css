@@ -158,14 +158,12 @@ body {
 }
 
 .success-message {
-    max-width: 327px;
-    height: 623px;
+    max-width: 375px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    padding: var(--spacing-104) var(--spacing-24) var(--spacing-40);
 }
 
 .success-message__hidden {
