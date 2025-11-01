@@ -177,12 +177,12 @@ body {
     gap: var(--spacing-32);
 }
 
-.success-message__header img {
+.success-message__icon {
     width: 64px;
     height: 64px;
 }
 
-.success-message__header h2 {
+.success-message__title {
     font-size: 40px;
     font-weight: 700;
     line-height: 100%;
