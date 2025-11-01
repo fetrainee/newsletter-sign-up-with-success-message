@@ -144,7 +144,7 @@ body {
     background-color: var(--red-100);
 }
 
-.email-form__button {
+.email-form__button, .success-message__button {
     padding: var(--spacing-16);
     border: none;
     border-radius: 8px;
@@ -154,6 +154,7 @@ body {
     font-weight: 700;
     line-height: 150%;
     cursor: pointer;
+    width: 100%;
 }
 
 .success-message {
