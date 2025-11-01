@@ -11,8 +11,8 @@ subscribeButton.addEventListener('click', () => {
         const validEmail = input.value;
         document.querySelector('.success-message__description').innerHTML = `A confirmation email has been sent to <b>${validEmail}</b>. Please open it and click the button inside to confirm your subscription`
 
-        document.querySelector('.success-message').classList.remove('success-message__hidden');
-        document.querySelector('.newsletter-signup').classList.add('newsletter-signup__hidden');
+        document.querySelector('.success-message').classList.remove('success-message--hidden');
+        document.querySelector('.newsletter-signup').classList.add('newsletter-signup--hidden');
 
     } else {
         errorLabel.textContent = 'Valid email required';
@@ -21,8 +21,8 @@ subscribeButton.addEventListener('click', () => {
 });
 
 dismissButton.addEventListener('click', () => {
-    document.querySelector('.success-message').classList.add('success-message__hidden');
-    document.querySelector('.newsletter-signup').classList.remove('newsletter-signup__hidden');
+    document.querySelector('.success-message').classList.add('success-message--hidden');
+    document.querySelector('.newsletter-signup').classList.remove('newsletter-signup--hidden');
 });
 
 input.addEventListener('input', () => {

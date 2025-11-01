@@ -47,7 +47,7 @@ body {
     align-items: center;
 }
 
-.newsletter-signup__hidden {
+.newsletter-signup--hidden {
     display: none;
 }
 
@@ -166,7 +166,7 @@ body {
     padding: var(--spacing-104) var(--spacing-24) var(--spacing-40);
 }
 
-.success-message__hidden {
+.success-message--hidden {
     display: none;
 }
 
