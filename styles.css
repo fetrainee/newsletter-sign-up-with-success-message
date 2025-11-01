@@ -38,7 +38,7 @@ body {
     color: var(--blue-800);
 }
 
-.container {
+.newsletter-signup {
     max-width: 375px;
     display: flex;
     flex-direction: column;
@@ -47,46 +47,46 @@ body {
     align-items: center;
 }
 
-.wrapper {
+.newsletter-signup__wrapper {
     max-width: 327px;
     display: flex;
     flex-direction: column;
     gap: var(--spacing-40);
 }
 
-.content {
+.newsletter-signup__content {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-24);
 }
 
-.content__title {
+.newsletter-signup__title {
     font-size: 40px;
     font-weight: 700;
     line-height: 100%;
 }
 
-.content__text {
+.newsletter-signup__description {
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
 }
 
-ul {
+.features-list {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: var(--spacing-16);
 }
 
-li {
+.features-list__item {
     padding-left: 32px;
     position: relative;
     font-size: 16px;
     line-height: 150%;
 }
 
-li::before {
+.features-list__item::before {
     content: '';
     position: absolute;
     left: 0;
@@ -98,14 +98,14 @@ li::before {
     background-repeat: no-repeat;
 }
 
-form {
+.email-form {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-24);
     padding-bottom: var(--spacing-40);
 }
 
-label {
+.email-form__label {
     font-size: 12px;
     font-weight: 700;
     line-height: 150%;
@@ -113,16 +113,20 @@ label {
     flex-direction: column;
 }
 
-.label-wrapper {
+.email-form__label-row {
     display: flex;
     justify-content: space-between;
 }
 
-.label-error {
+.email-form__label-text {
+    /* Inherits styles from .email-form__label */
+}
+
+.email-form__error {
     color: var(--red);
 }
 
-input {
+.email-form__input {
     padding: var(--spacing-16) var(--spacing-24);
     border: 1px solid var(--grey);
     border-radius: 8px;
@@ -130,12 +134,13 @@ input {
     font-weight: 400;
 }
 
-.email-input__error {
+.email-form__input--error {
     border: 1px solid var(--red);
     color: var(--red);
     background-color: var(--red-100);
 }
-button {
+
+.email-form__button {
     padding: var(--spacing-16);
     border: none;
     border-radius: 8px;

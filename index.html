@@ -12,29 +12,29 @@
 </head>
 <body>
 <main>
-    <article class="container">
+    <article class="newsletter-signup">
         <picture class="hero">
             <img src="./assets/images/illustration-sign-up-mobile.svg" alt="background image">
         </picture>
-        <div class="wrapper">
-            <section class="content">
-                <h1 class="content__title">Stay updated!</h1>
-                <p class="content__text">Join 60,000+ product managers receiving monthly updates on:</p>
-                <ul>
-                    <li>Product discovery and building what matters</li>
-                    <li>Measuring to ensure updates are a success</li>
-                    <li>And much more!</li>
+        <div class="newsletter-signup__wrapper">
+            <section class="newsletter-signup__content">
+                <h1 class="newsletter-signup__title">Stay updated!</h1>
+                <p class="newsletter-signup__description">Join 60,000+ product managers receiving monthly updates on:</p>
+                <ul class="features-list">
+                    <li class="features-list__item">Product discovery and building what matters</li>
+                    <li class="features-list__item">Measuring to ensure updates are a success</li>
+                    <li class="features-list__item">And much more!</li>
                 </ul>
             </section>
-            <form class="form__email">
-                <label for="email">
-                    <span class="label-wrapper">
-                        <span class="label-text">Email address</span>
-                        <span class="label-error" id="email-error" aria-live="polite"></span>
+            <form class="email-form">
+                <label class="email-form__label" for="email">
+                    <span class="email-form__label-row">
+                        <span class="email-form__label-text">Email address</span>
+                        <span class="email-form__error" id="email-error" aria-live="polite"></span>
                     </span>
-                    <input class="email-input" id="email" type="email" placeholder="email@company.com">
+                    <input class="email-form__input" id="email" type="email" placeholder="email@company.com">
                 </label>
-                <button class="form--button" type="button">Subscribe to monthly newsletter</button>
+                <button class="email-form__button" type="button">Subscribe to monthly newsletter</button>
             </form>
         </div>
     </article>
