@@ -5,7 +5,9 @@ const errorLabel = document.querySelector('.label-error');
 button.addEventListener('click', () => {
     if (input.checkValidity()) {
         errorLabel.textContent = '';
+        input.classList.remove('email-input__error');
     } else {
         errorLabel.textContent = 'Valid email required';
+        input.classList.add('email-input__error');
     }
 });
