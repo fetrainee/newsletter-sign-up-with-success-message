@@ -9,7 +9,9 @@ subscribeButton.addEventListener('click', () => {
         input.classList.remove('email-form__input--error');
 
         const validEmail = input.value;
-        document.querySelector('.success-message__description').innerHTML = `A confirmation email has been sent to <b>${validEmail}</b>. Please open it and click the button inside to confirm your subscription`
+        const successEl = document.querySelector('.success-message__description');
+        successEl.innerHTML = 'A confirmation email has been sent to <b></b>. Please open it and click the button inside to confirm your subscription';
+        successEl.querySelector('b').textContent = validEmail;
 
         document.querySelector('.success-message').classList.remove('success-message--hidden');
         document.querySelector('.newsletter-signup').classList.add('newsletter-signup--hidden');
